@@ -1,0 +1,13 @@
+﻿Install: 
+	InstallUtil.exe C:\ImportDynamics\ImportDynamicsKsef\ImportDynamicsKsef\bin\Debug\ImportDynamicsKsef.exe
+
+Uninstall: 
+	InstallUtil.exe -u C:\ImportDynamics\ImportDynamicsKsef\ImportDynamicsKsef\bin\Debug\ImportDynamicsKsef.exe
+
+Folder to run this command: cd C:\Windows\Microsoft.NET\Framework\v4.0.30319
+
+After we install that services - we have to change in "Services Managment" in Properties --> Log On --> from "Local System" to "This account" and find acc -- ######
+
+Pass: 
+	#######
+	#######
